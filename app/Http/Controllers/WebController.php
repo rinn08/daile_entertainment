@@ -12,7 +12,7 @@ class WebController extends Controller
      * @return void
      */
     public function homePage(){
-        return view('index');
+        return view('web.index');
     }
 
     /**
@@ -21,7 +21,7 @@ class WebController extends Controller
      * @return void
      */
     public function aboutPage(){
-        return view('about');
+        return view('web.about');
     }
 
     /**
@@ -30,6 +30,6 @@ class WebController extends Controller
      * @return void
      */
     public function contactPage(){
-        return view('contact');
+        return view('web.contact');
     }
 }
